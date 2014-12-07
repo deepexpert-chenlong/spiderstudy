@@ -21,7 +21,7 @@ def getvalue(html):
     for value in list:
         return value
 
-connect = MySQLdb.connect(host='localhost', user='root', passwd='wszgr728', db='test')
+connect = MySQLdb.connect(host='localhost', user='root', passwd='******', db='test')
 cur=connect.cursor()
 cur.execute('CREATE TABLE results(site VARCHAR(8),suffix VARCHAR(8))')
 a = all()
