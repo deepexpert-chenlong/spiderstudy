@@ -20,7 +20,7 @@ value.append(rate[0].encode('utf-8'))
 value.append(dollar[0].encode('utf-8'))
 
 try:
-    cxn = MySQLdb.connect(host='localhost', user='root', passwd='wszgr728',db='test')
+    cxn = MySQLdb.connect(host='localhost', user='root', passwd='*****',db='test')
 except:
     print "Could not connect to MySQL server."
     exit(0)
